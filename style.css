@@ -1,4 +1,4 @@
-#
+*
 {
     margin: 0;
     padding: 0;
@@ -6,9 +6,123 @@
 body
 {
     margin: 0;
-    padding: 0;  
+    padding: 0;
+    font-family: "Stylish", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 h1
 {
-    color: red;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
 }
+.container
+{
+    padding: 10px;
+    
+}
+.box-container
+{
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+   
+}
+.btn
+{
+    margin: 4px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(214, 30, 46);
+    font-weight: bold;
+    border: none;
+    align-items: end;
+    
+}
+.add-button
+{
+    background-color: red;
+    margin: 15px;
+    padding: 33px;
+    position: fixed;
+    border-radius: 88%;
+    bottom: 30px;
+    right: 30px;
+    border: none; 
+    font-size:xx-large;
+}
+h5
+{
+    color: blueviolet;
+    font-size: large;
+}
+.overlay
+{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: 1;
+    display: none;
+    
+}
+.popup
+{
+    display: none;
+}
+
+.form-container
+{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    padding: 15px;
+    margin: 15px;
+    display: inline;
+    z-index: 2;
+    left: 30%;
+    top: 15%;
+    background-color: red;
+    border-radius: 10px;
+}
+.form-container input
+{
+    width: 95%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 4px double rgb(23, 10, 13);
+}
+
+.form-container textarea
+{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-bottom: 4px double rgb(23, 10, 13);
+    
+}
+/* .youtube-container
+{
+    
+    width: 50%;
+    height: 70vh;
+    
+    margin: 0% 26%;
+    margin-bottom: 10%;
+}
+iframe
+{
+    height: 100%;
+    width: 100%;
+} */

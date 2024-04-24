@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Test Phase Main page</title>
+    <title>Booksky</title>
 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Stylish&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Welcome to my world</h1>
-    <a href="/page1.html">Click here to access page1</a>
-    
+    <h1>booksky</h1>
+    <div class="container">
+        <div class="box-container">
+            <h2>Book Ttitle</h2>
+            <h5>Author name</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dicta reiciendis quibusdam quos
+                quidem. Ex ipsa quidem nihil ea molestias quasi at maxime, distinctio totam accusantium blanditiis
+                provident vel quisquam.</p>
+            <button class="btn" onclick="delcontainer(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup">
+
+        <form class="form-container">
+            <h5>Add another block</h5>
+            <input type="text" placeholder="BOOK NAME" id="bookname">
+            <input type="text" placeholder="AUTHOR NAME" id="authorname">
+            <textarea id="textarea" placeholder="TEXT AREA" cols="30" rows="10"></textarea>
+            <div class="buttoncontainer">
+                <button id="add" class="btn">ADD</button>
+                <button id="cancel" class="btn">CLOSE</button>
+
+            </div>
+
+        </form>
+
+    </div>
+    <div class="overlay">
+
+    </div>
+    <button class="add-button" id="block-add-popup">+</button>
+
+    <div class="youtube-container">
+
+        <iframe  width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+    </div>
+    <div>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/tgbNymZ7vqY"
+         frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
+
+
+    <script src="script.js">
+
+    </script>
 </body>
+
 </html>
